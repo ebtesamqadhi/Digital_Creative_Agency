@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Myriad Pro', sans-serif;
+}
+
+.primary-text {
+  color: #ff0066;
+}
+
+.primary-bg {
+  background-color: #ff0066;
+}
+
+header img {
+  width: 25px;
+}
+
+.banner {
+  height: 100vh;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner h2{
+  font-size: 50px;
+}
