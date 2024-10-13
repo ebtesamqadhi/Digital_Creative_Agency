@@ -56,13 +56,40 @@ header img {
   object-fit: cover;
 }
 
-.service-info{
+.service-info {
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
 }
-.service-info img{
+
+.service-info img {
   width: 45px;
+}
+
+.about {
+  background-color: #F9F9F9;
+  padding: 70px 0;
+}
+
+.about span {
+  width: 10px;
+  height: 10px;
+}
+
+.about ul {
+  list-style: none;
+}
+
+.about ul li::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  left: -23px;
+  top: 10px;
+  outline: 5px solid #ff0066;
 }
