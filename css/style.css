@@ -73,7 +73,8 @@ header img {
   padding: 70px 0;
 }
 
-.about span {
+.about-title span ,
+.product-title span {
   width: 10px;
   height: 10px;
 }
@@ -97,4 +98,9 @@ header img {
 .about-work {
   border-top: 2px solid #ff0066;
   box-shadow: 0px 0px 15px 3px rgb(0 0 0 / 10%);
+}
+
+.product img{
+  height: 280px;
+  width: 320px;
 }
