@@ -120,3 +120,19 @@ header img {
 .swiper-button-prev::after {
   display: none;
 }
+
+.contact-us {
+  padding: 100px 0;
+}
+
+.contact-us .contact-info {
+  max-width: 500px;
+}
+
+.contact-us .contact-info h1 {
+  font-size: 60px;
+}
+
+.contact-us .contact-info p {
+  font-size: 18px;
+}
